@@ -1,0 +1,361 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiseGameStudio</title>
+    
+    <!-- box icons -->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+       <link rel="stylesheet" href="/css/style.css">
+
+ </head>
+ 
+ 
+ 
+ <body>
+   
+   <!-- header design -->
+      <header class="header">
+
+         <a href="#" class="logo">Portfolio</a>
+
+         <!-- icone importado  -->
+          
+         <i class='bx bx-menu' id="menu-icon" ></i>
+         
+        
+
+         <nav class="navbar">
+            
+            <a href="#home" class="active">Olá!</a>                  <!-- Olá!-->
+            <a href="#about">Quem sou</a>                            <!-- Quem sou eu-->
+            <a href="#services">Habilidades</a>                      <!-- Formação -->
+            <a href="#portfolio">Projetos</a>                        <!-- Portfolio/Projetos-->
+            <a href="#contact">Contato</a>                           <!-- Fale comigo!-->
+
+         </nav>
+
+      </header> 
+
+   <!--------------------------------------------------------------------------------------------------------->
+   <!-- home <section design -->
+      <section class="home" id="home">
+         
+         <div class="home-content">
+
+               <h3>Olá! Eu sou</h3>
+               <h1> Raphael Camara</h1>
+               <h3>E sou o seu <span id="multiple-text"></span></h3>
+               <p>Tenho experiência como Game Designer e nas criações de sistemas, 
+                  <br>mecânicas, combates, criação / modelagem de personagens,
+                  <br>criaturas, cenários no ambiente 2D e 3D na Unity. 
+                  <br><br>Atualmente estou aprimorando minhas habilidades no Storytelling e Atuando como Quality Assurance (QA).</p>
+               
+                  <div class="social-media">
+
+                  <a href="https://www.instagram.com/rapha.gamedev/"><i class='bx bxl-instagram'></i></a>                     <!-- Instagram -->
+                  <a href="https://www.linkedin.com/in/raphael-camara-40320518b/"><i class='bx bxl-linkedin-square'></i></a>  <!-- LinkedIN -->
+                  <a href="https://github.com/raphagamedev"><i class='bx bxl-github' ></i></a>                                <!-- Github -->
+                  <a href="#"><i class='bx bxl-youtube' ></i></a>                                                             <!-- Youtube -->
+
+                  </div>
+                  
+                  <div class="container">
+                     
+                     <div class="container_btn">
+
+                        <a href="/doc/Curriculo Raphael-QA 03-10-23.doc" class="btn">Download Curriculo</a>
+
+                     </div>
+
+                  </div>      
+         </div>
+
+         
+         <div class="home-img">
+
+               <img src="/imagem/home.png" alt="">
+
+         </div>
+      
+      </section>
+   <!-- fim da home section design -->
+   
+
+   <!--------------------------------------------------------------------------------------------------------->
+   <!-- abouth section design -->
+
+      <section class="about" id="about">
+
+         <div class="about-img">
+
+               <img src="/imagem/about.png" alt="">
+
+         </div>
+
+         <div class="about-content">
+
+            <h2 class="heading">Sobre <span>Mim</span></h2>
+            <h3>Game Designer, 2D/3D Artist, Front-End Developer and Quality Assurance (QA)</h3>
+            
+            <p> Atualmente, desempenho a função de analista de qualidade, mas minha verdadeira paixão reside no fascinante universo do desenvolvimento de jogos. A emoção de dar vida a um mundo inteiro e testemunhar sua materialização é verdadeiramente indescritível<span2 id="pontos">...
+            </span2>
+
+            <span2  id="mais">Desde a minha infância, nutri uma forte afinidade por videogames, e minha mãe, reconhecendo essa paixão, presenteou-me com livros que exploravam os universos dos jogos que tanto adorava. <br><br>Como filho de uma professora, fui incentivado desde cedo a mergulhar em leituras e a explorar minha imaginação por meio de histórias cativantes. Por outro lado, meu pai desempenhou um papel crucial ao guiar-me pelo vasto mundo da tecnologia. <br><br>Essa combinação única de influências moldou minha trajetória, levando-me a transformar meu amor por bons livros em um empolgante hobby: a criação de jogos.
+
+            Embora minha carreira profissional esteja atualmente centrada na qualidade de software, dedico meu tempo livre a projetos voluntários e pessoais, onde atuo como programador em C#, com foco no desenvolvimento de jogos utilizando a Unity Engine.<br><br>Nesse âmbito, abordo integralmente os requisitos do Game Design, unindo o melhor dos dois mundos que me foram inspiradores.</span2></p>
+
+            <buttom onclick="leiaMais()" id="btnLeiaMais" class="btn2">Saiba mais!</buttom>
+            
+         </div>
+
+      </section>
+
+   <!-- fim da abouth section design -->
+
+   <!--------------------------------------------------------------------------------------------------------->
+   <!-- service section design -->
+
+
+      <section class="service" id="services">
+
+         <h2 class="heading">Minhas <span>Habilidades</span></h2>
+
+         <div class="services-container">
+
+            <div class="services-box">
+               
+               <i class="bx bx-code-alt"></i>
+               <h3>Web Development</h3>
+               
+               <p>Nesse campo de conhecimento costumo utilizar<span id="pontoswd">:</span>
+                  
+                  
+                  <span  id="maiswd">
+                  
+                     <br><br>Ferramentas de desenvolvimento de layout como <strong>Figma</strong> 
+                     <br><br>Estruturo as páginas com <strong>HTML5</strong>  
+                     <br><br>Com <strong>CSS</strong> tornando o site responsivo e estilizado  
+                     <br><br>Utilizando também o  <strong>JS</strong> para criar interações e animações.
+               
+                  </span>
+               </p>
+
+               <buttom onclick="leiaMaiswd()" id="btnLeiaMaiswd" class="btn2">Saiba mais!</buttom>
+
+            </div>
+            
+
+
+            <div class="services-box">
+               
+               <i class='bx bxs-joystick'></i>
+               <h3>Game Design</h3>
+               <p>Como Game Design meus conhecimentos são<span id="pontosgm">:</span>
+                  
+               <span  id="maisgm">
+                  <br><br>Aspectos clássicos de jogos
+                  <br><br>Level Design
+                  <br><br>Analisar o ciclo de gameplay
+                  <br><br>Interatividade
+                  <br><br>Mecanicas de dialogos
+                  <br><br>Storyteller
+                  <br><br>Roteiro mapas e ambientação
+                  <br><br>Prototipagem
+                  <br><br>Analise de Qualidade
+                  <br><br>Experiência na Unity Engine
+                  <br><br>Conheciemnto na linguagem C#
+
+               </span></p>
+                             
+               <buttom onclick="leiaMaisgm()" id="btnLeiaMaisgm" class="btn2">Saiba mais!</buttom>
+
+            </div>
+
+
+            <div class="services-box">
+               
+               <i class='bx bxl-blender' ></i>
+               <h3>2D/3D Artist</h3>
+               <p>
+                  Conhecimentos em Blender, Photoshop e Illustrator tais como<span id="pontosmd">:</span>
+                  <span  id="maismd">
+                  
+                     <br><br>Modelagem 3D 
+                     <br><br>Animação 2D / 3D
+                     <br><br>Criação de Assets 2D / 3D
+                     <br><br>Mapeamento UV e Texturização
+                     <br><br>Habilidade em Pintura digital
+               
+                  </span>
+
+               </p> 
+               
+               <buttom onclick="leiaMaismd()" id="btnLeiaMaismd" class="btn2">Saiba mais!</buttom>
+               
+
+            </div>
+
+      </section>   
+
+   <!-- fim da service section design -->
+
+   <!--------------------------------------------------------------------------------------------------------->
+   <!-- portfolio section design -->
+
+      <section class="portfolio" id="portfolio">
+
+         <h2 class="heading">Projetos <span> Recentes</span></h2>
+
+         <div class="portfolio-container">
+            
+            <!------ Game Desing [A Divina Comédia 2D] ------------>             
+               <div class="portfolio-box">
+
+               
+                  <img src="/imagem/adivinacomédia.png" alt="">
+              
+                  <div class="portfolio-layer">
+                 
+                     <h4>Game Desing [A Divina Comédia 2D]</h4>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, illum.</p>
+                     <a href="/portfolio2D.html"><i class='bx bx-link-external' ></i></a>
+
+                  </div>
+
+               </div>
+            <!---------------------------------------------------->
+            
+
+            <!------- Game Desing [A Maldição do Mar]------------->
+               <div class="portfolio-box">
+
+               
+                  <img src="/imagem/capaamaldiçãodomar.png" alt="">
+              
+                  <div class="portfolio-layer">
+                 
+                     <h4>Game Desing [A Maldição do Mar 3D]</h4>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptate!</p>
+                     <a href="/portfolio3D.html"><i class='bx bx-link-external' ></i></a>
+
+                  </div>
+             
+               </div>
+            <!---------------------------------------------------->
+
+
+            <!-------- Projeto Vampiro A Mascara -------->
+               <div class="portfolio-box">
+
+               
+                  <img src="/imagem/quase isso.jpg" alt="">
+              
+                  <div class="portfolio-layer">
+                 
+                     <h4>Storyteller [Vampiro A Mascara]</h4>
+                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, cumque?.</p>
+                     <a href="#"><i class='bx bx-link-external' ></i></a>
+
+                  </div>
+
+               </div>
+            <!---------------------------------------------------->  
+         
+         </div>
+
+
+      </section>
+   <!-- fim do portfolio section design -->
+
+   
+   <!--contact section design-->
+
+      <section class="contact" id="contact">
+         <h2 class="heading">Fale <span>Comigo!</span></h2>
+
+         <form id="contactForm">
+            
+            <div class="input-box">
+                <input type="text" id="fullName" placeholder="Full Name" required>
+                <input type="email" id="emailAddress" placeholder="Email Address" required>
+            </div>
+    
+            <div class="input-box">
+                <input type="number" id="mobileNumber" placeholder="Mobile Number">
+                <input type="text" id="emailSubject" placeholder="Email Subject" required>
+            </div>
+    
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+    
+            <input type="button" value="Enviar Mensagem!" class="btn2" onclick="sendEmail()">
+               
+         </form>
+         
+      </section>
+
+
+   <!-- fim da contact section design -->
+
+   <!--------------------------------------------------------------------------------------------------------->
+   <!-- footer designer -->   
+      
+      <footer class="footer">
+
+         <div class="footer-text">
+
+            <p>Esse portfolio é apenas um prototipo de 2023 | Agradeçoa  compreenção!. </p>
+
+         </div>
+
+         <div class="footer-iconTop">
+
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+
+         </div>
+      
+      </footer>
+
+
+   <!-- fim do footer design -->
+   <!--------------------------------------------------------------------------------------------------------->
+
+   
+   <!-- scroll reveal -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+   <!--------------------------------------------------------------------------------------------------------->
+
+
+   <!-- typed js -->
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   <!--------------------------------------------------------------------------------------------------------->
+   
+   
+   
+   <!-- custom js -->
+      <script src="js/script.js"></script>
+   <!--------------------------------------------------------------------------------------------------------->
+
+
+   <!-- email -->   
+      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+   <!--------------------------------------------------------------------------------------------------------->
+
+   <!-- email js-->   
+      <script src="/js/email.js"></script>
+   <!--------------------------------------------------------------------------------------------------------->
+
+
+   
+
+ </body>
+ 
+
+
+
+ </html>
